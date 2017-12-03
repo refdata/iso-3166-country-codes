@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>refdata-iso-country-codes</artifactId>
+	<packaging>jar</packaging>
+	<description>Java implementation of ISO standard 3166</description>
+
+	<groupId>io.refdata</groupId>
+	<version>1.0.0-SNAPSHOT</version>
+	<parent>
+		<groupId>io.refdata</groupId>
+		<artifactId>refdata-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../refdata-parent/</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apiguardian</groupId>
+			<artifactId>apiguardian-api</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
