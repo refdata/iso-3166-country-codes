@@ -1,14 +1,13 @@
 package io.refdata.iso.country;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import java.util.Arrays;
 
 public class CountryCodeTest {
 
     public final static int EXPECTED_NUMBER_OF_ISO_COUNTRY_CODES = 249;
-    public final static int EXPECTED_NUMBER_OF_SOVEREIGN_STATES = 999; //TODO
+    public final static int EXPECTED_NUMBER_OF_SOVEREIGN_STATES = 194;
 
     @Test
     public void testNumberOfCountryCodes() {
@@ -26,10 +25,11 @@ public class CountryCodeTest {
     }
 
     @Test
-    @Disabled // TODO
     public void testNumberOfSovereignStates(){
-        // TODO
-        assertEquals( EXPECTED_NUMBER_OF_SOVEREIGN_STATES, 0);
+        assertEquals( EXPECTED_NUMBER_OF_SOVEREIGN_STATES,
+                Arrays.stream( CountryCode.values() )
+                        .filter(e -> e.isIndependant())
+                        .count());
     }
 
     // Utility method that encapsulates all the CountryCode checks
