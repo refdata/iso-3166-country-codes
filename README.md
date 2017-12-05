@@ -2,16 +2,16 @@
 Java implementation of the ISO ([International Organization for Standardization](https://www.iso.org)) standard ISO [3166 - Country Codes](https://www.iso.org/iso-3166-country-codes.html).
 
   ## Table of Contents
-  - [Description](#description)
-  - [Overview](#overview)
-  - [Supported ISO standards](#supported)
-  - [Installation](#installation)
-  - [Usage](#usage)
-	- [Maven](#maven)
-	- [Gradle](#gradle)
-- [Maintainers](#maintainers)
-- [Contribute](#contribute)
-- [License](#license)
+  - [Description](#Description)
+    - [Overview](#Overview)
+    - [Supported ISO standards](#supported)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+	- [Maven dependency](#Maven)
+	- [Gradle dependency](#Gradle)
+  - [Maintainers](#maintainers)
+  - [Contribute](#contribute)
+  - [License](#license)
 
   ## Description
     ### Overview
