@@ -55,8 +55,11 @@ Java implementation of the ISO ([International Organization for Standardization]
  ```
  
 ## Usage
-test
+
 ```java
+import io.refdata.iso.country
+[...]
+CountryCode.FRANCE;
 
 ```
 
