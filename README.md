@@ -71,7 +71,7 @@ The choice to build this ISO-3166 standard as a simple Java enumeration is quite
  
 ## Maintainers
 
-You can contact the development team by sending an email to xxxx@gmail.com.
+You can contact the development team by sending an email to <refdata.io@gmail.com>.
 
 ## Contribute
 
