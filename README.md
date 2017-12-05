@@ -21,8 +21,8 @@ Java implementation of the ISO ([International Organization for Standardization]
  ISO 3166 is one of the most used ISO standards over the world. It defines a standard and unique way to 
  identify countries and territories.
  
- It is used as a basis in the Oracle JDK (???) to configure Locales (???), but is commonly integrated 
- within others languages APIs, such as Microsoft (???) or Python ().
+ It is used as a standard in the Oracle JDK  with [java.util.Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html), but is commonly integrated 
+ within others languages APIs, such as Microsoft .NET ([RegionInfo.Name Property (System.Globalization)]( https://msdn.microsoft.com/en-us/library/system.globalization.regioninfo.name(v=vs.110).aspx)) or Python ([pycountry](https://pypi.python.org/pypi/pycountry)).
  
  This artifact can be easy used as a reference data (domain) enumeration, providing a very simple interface 
  (package.enum link), allowing you to deal with country codes into your program
