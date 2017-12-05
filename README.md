@@ -6,9 +6,9 @@ Java implementation of the ISO ([International Organization for Standardization]
     - [Overview](#Overview)
     - [Supported ISO standards](#supported)
   - [Installation](#Installation)
-  - [Usage](#Usage)
-	- [Maven dependency](#Maven)
+  	- [Maven dependency](#Maven)
 	- [Gradle dependency](#Gradle)
+  - [Usage](#Usage)
   - [Maintainers](#maintainers)
   - [Contribute](#contribute)
   - [License](#license)
@@ -41,9 +41,7 @@ Java implementation of the ISO ([International Organization for Standardization]
  3166-2 ?
 
 ## Installation
-
-## Usage
- ### Maven
+ ### Maven dependency
  ```xml
  <dependency>
     <groupId>io.refdata</groupId>
@@ -51,11 +49,16 @@ Java implementation of the ISO ([International Organization for Standardization]
     <version>1.0.0</version>
  </dependency>
  ```
- ### Gradle
+ ### Gradle dependency
  ```groovy
  compile group: 'io.refdata', name: 'refdata-iso-country-codes', version: '1.0.0'
-
  ```
+ 
+## Usage
+test
+```java
+
+```
 
 ## API Design
 
