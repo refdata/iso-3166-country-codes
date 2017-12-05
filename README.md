@@ -1,7 +1,7 @@
 # ISO 3166 Country Codes
 Java implementation of the ISO ([International Organization for Standardization](https://www.iso.org)) standard ISO [3166 - Country Codes](https://www.iso.org/iso-3166-country-codes.html).
 
-## Table of Contents
+	## Table of Contents
 - [Description](#description)
     - [Overview](#overview)
     - [Supported ISO standards](#supported)
